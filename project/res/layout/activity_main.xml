@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/main_tv_bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Bonjour et bienvenue"
+        android:textColor="#FF0000"
+        android:textSize="@android:dimen/app_icon_size" />
+        
+    <Button 
+        android:onClick="onClik_Affiche2014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="affiche 2014"
+        android:gravity="center"
+        />
+    
+    
+    </LinearLayout>
+
+    
+</RelativeLayout>
