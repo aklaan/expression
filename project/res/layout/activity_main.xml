@@ -1,36 +1,27 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:background="@color/WHITE"
+    android:gravity="center" >
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:background="@drawable/logoexpression2"
         android:orientation="vertical" >
 
-    
-    <TextView
-        android:id="@+id/main_tv_bienvenue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:text="Bonjour et bienvenue"
-        android:textColor="#FF0000"
-        android:textSize="@android:dimen/app_icon_size" />
-        
-    <Button 
-        android:onClick="onClik_Affiche2014"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="affiche 2014"
-        android:gravity="center"
-        />
-    
-    
+        <Button
+            android:id="@+id/bouton_entrer"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="150dp"
+            android:onClick="onClik_entrer"
+            android:text="@string/enter" />
+   
     </LinearLayout>
-
-    
+        
 </RelativeLayout>

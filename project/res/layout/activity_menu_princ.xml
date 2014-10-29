@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/WHITE" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        
+                <TextView
+                    android:id="@+id/menu_princ_titre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="@string/expression"
+                    android:textColor="@color/BLACK"
+                    android:textSize="@android:dimen/app_icon_size" />
+            
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClik_bt_representation2014"
+        android:text="@string/representation2014" />
+ 
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:onClick="onClik_bt_contact"
+           android:text="@string/contact" />
+
+    </LinearLayout>
+        
+</RelativeLayout>

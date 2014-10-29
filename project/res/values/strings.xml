@@ -3,5 +3,10 @@
 
     <string name="app_name">Association Expression</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="expression">Expression</string>
+    <string name="representation2014">Représentation 2014</string>
+    <string name="contact">Nous contacter</string>
+    <string name="enter">Entrer</string>
+    
+    
 </resources>

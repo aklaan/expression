@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 
-public class Affiche2014 extends Activity{
+public class ActivAffiche2014 extends Activity{
 
 	
 	@Override
