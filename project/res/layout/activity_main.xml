@@ -1,27 +1,31 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@color/WHITE"
-    android:gravity="center" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondrideau"
+    android:orientation="vertical" >
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/logoexpression2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/masque_expression"
+        android:gravity="center_vertical"
         android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/bouton_entrer"
-            style="@style/AppBaseTheme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:layout_marginTop="150dp"
-            android:onClick="onClik_entrer"
-            android:text="@string/enter" />
+         </LinearLayout>
    
-    </LinearLayout>
-        
-</RelativeLayout>
+<Button
+    android:id="@+id/bouton_entrer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#0000"
+    android:gravity="center"
+    android:onClick="onClik_entrer"
+    android:text="@string/enter"
+    android:textColor="@color/WHITE"
+    android:textSize="40dp" />
+
+ </LinearLayout>

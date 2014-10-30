@@ -24,7 +24,13 @@
         <activity android:name="com.rdupuis.expression.ActivAffiche2014" >
         </activity>
     
+        <activity android:name="com.rdupuis.expression.ActivDates2014" >
+        </activity>
+    
     <activity android:name="com.rdupuis.expression.ActivMenuPrincipal" >
+        </activity>
+    
+    <activity android:name="com.rdupuis.expression.ActivContacts" >
         </activity>
     
     </application>

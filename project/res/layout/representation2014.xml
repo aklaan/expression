@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondrideau"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Représentations 2014"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="&quot;Tailleur pour Dames&quot;"
+        android:textColorHint="@color/WHITE"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Comédie de Georges FEYDEAU"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mise en scène de Nicolas DUPUIS"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="211dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/affiche2014v4" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Salle des Fêtes de Férolles"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="à 21h00"
+        android:textColorHint="@color/WHITE"
+        android:textSize="30dp" />
+
+   
+    
+     <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Vendredi 28 et Samedi 29 Novembe"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+    
+     
+     <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Vendredi 05 et Samedi 06 Décembre"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+    
+     <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Vendredi 12 et Samedi 13 Décembre"
+        android:textColorHint="@color/WHITE"
+        android:textSize="20dp" />
+     
+ </LinearLayout>

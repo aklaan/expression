@@ -18,9 +18,11 @@ public class ActivMenuPrincipal extends Activity {
 		Typeface tf = Typeface.createFromAsset(getAssets(),
                 "fonts/disco___-webfont.ttf");
 		
-		TextView tv = (TextView) findViewById(R.id.menu_princ_titre);
+		TextView tv = (TextView) findViewById(R.id.menu_princ_asso);
 		tv.setTypeface(tf);
 		
+		tv = (TextView) findViewById(R.id.menu_princ_expression);
+		tv.setTypeface(tf);
 	}
 
 
@@ -28,7 +30,7 @@ public class ActivMenuPrincipal extends Activity {
 	    	
 	       // ça ça marche en utilisant les class
 	       // je jn'ai pas réussi via une URL.
-	    	Intent intent = new Intent(this,ActivAffiche2014.class);
+	    	Intent intent = new Intent(this,ActivDates2014.class);
 	    	
 	       // on passe la variable result=0 en paramètre
 	       // ici ça ne sert à rien sinon pour l'exemple.
@@ -42,7 +44,7 @@ public class ActivMenuPrincipal extends Activity {
 	    	
 	       // ça ça marche en utilisant les class
 	       // je jn'ai pas réussi via une URL.
-	    	Intent intent = new Intent(this,ActivAffiche2014.class);
+	    	Intent intent = new Intent(this,ActivContacts.class);
 	    	
 	       // on passe la variable result=0 en paramètre
 	       // ici ça ne sert à rien sinon pour l'exemple.
